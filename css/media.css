@@ -13,4 +13,15 @@
     align-items: center;
     text-align: center;
   }
+  .post-top {
+    justify-content: center;
+  }
+
+  .post-top a {
+    display: none;
+  }
+  .post {
+    flex-direction: column;
+    align-items: center;
+  }
 }
