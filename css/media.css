@@ -24,4 +24,18 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .work .box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-content {
+    max-width: 290px;
+    gap: 15px;
+  }
+  .work .box img {
+    max-width: 290px;
+    width: 100%;
+  }
 }
