@@ -1,0 +1,16 @@
+@media (max-width: 706px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 609px) {
+  .main {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .main-content {
+    align-items: center;
+    text-align: center;
+  }
+}
