@@ -23,6 +23,11 @@
   gap: 30px;
 }
 
+.burger-menu {
+  display: none;
+  justify-content: flex-end;
+}
+
 .header a {
   color: #000;
   font-size: clamp(12px, 0.5rem + 1.25vw, 22px);
@@ -177,5 +182,30 @@
   padding: 2px 8px;
 }
 .work-content p {
+  font-size: clamp(12, 0.667rem + 0.42vw, 16px);
+}
+#footer {
+  padding: 100px 0 50px 0;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer-icons img {
+  max-width: 100px;
+  width: 100%;
+}
+
+.footer p {
   font-size: clamp(12, 0.667rem + 0.42vw, 16px);
 }

@@ -5,6 +5,13 @@
 }
 
 @media (max-width: 609px) {
+  .burger-menu {
+    display: flex;
+  }
+
+  .header {
+    display: none;
+  }
   .main {
     flex-direction: column-reverse;
     align-items: center;
