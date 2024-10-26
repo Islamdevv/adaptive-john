@@ -38,4 +38,9 @@
     max-width: 290px;
     width: 100%;
   }
+
+  .work-title {
+    display: flex;
+    justify-content: center;
+  }
 }
